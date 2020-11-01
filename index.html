@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src = "code.js"></script>
+</head>
+<body>
+<h1>Blood Alcohol Content Calculator</h1>
+<fieldset>
+<label for="beerConsumed">Number of Beers Consumed</label>
+<input type="number" id="beerConsumed">
+    <p>One beer has 0.54 liquid ounces of alcohol.</p>
+</fieldset>
+
+<fieldset>
+    <label for="wineConsumed">Glasses of Wine Consumed</label>
+<input type="number" id="wineConsumed">
+    <p>One glass of wine has 0.6 liquid ounces of alcohol.</p>
+</fieldset>
+
+<fieldset>
+    <label for="shotsConsumed">Number of Shots Consumed</label>
+    <input type="number" id="shotsConsumed">
+    <p>One shot has 0.6 liquid ounces of alcohol.</p>
+</fieldset>
+
+<fieldset>
+    <label for="weight">Your Weight in Pounds</label>
+    <input type="number" id="weight">
+    <br>
+    <label for="hours">Hours Since Your First Drink</label>
+    <input type="number" id="hours">
+    <br>
+    <button id="calcButton">Calculate My BAC</button>
+
+    <p>Your Blood Alcohol Content (BAC) is <span id="percentOutput"></span>% </p>
+
+
+</fieldset>
+
+</body>
+</html>
